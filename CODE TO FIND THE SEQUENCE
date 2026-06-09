@@ -1,0 +1,11 @@
+n=int(input("Enter any 3 digit numbers="))
+r=str(n)
+l=[]
+for i in r:
+    l.append(ord(i))
+if(l[0]+1 == l[1] and l[1]+1 == l[2]):
+    print("In sequence")
+elif(l[0]-1 == l[1] and l[1]-1 == l[2]):
+    print("In sequence")
+else:
+    print("Not in sequence")
